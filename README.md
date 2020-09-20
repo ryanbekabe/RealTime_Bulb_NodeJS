@@ -2,7 +2,7 @@
 
 ![alt text](bulpoff.png)
 
-![alt text](bulpo.png)
+![alt text](bulpon.png)
 
 echo "# RealTime_Bulb_NodeJS" >> README.md
 
