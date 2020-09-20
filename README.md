@@ -1,5 +1,9 @@
 # RealTime_Bulb_NodeJS
 
+![alt text](bulpoff.png)
+
+![alt text](bulpo.png)
+
 echo "# RealTime_Bulb_NodeJS" >> README.md
 
 git init
