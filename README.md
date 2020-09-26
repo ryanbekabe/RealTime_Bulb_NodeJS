@@ -31,3 +31,7 @@ ____
 npm --version: 6.14.4
 
 nodejs --version: v10.19.0
+
+____
+
+HanyaJasa.Com | bekabeipa@gmail.com
