@@ -25,3 +25,9 @@ git remote add origin https://github.com/ryanbekabe/RealTime_Bulb_NodeJS.git
 git branch -M master
 
 git push -u origin master
+
+____
+
+npm --version: 3.5.2
+
+nodejs --version: v4.2.6
