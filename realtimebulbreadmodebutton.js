@@ -29,6 +29,11 @@ io.on('connection', function(client) {
 			  }				  
 		});
 	});
+	
+        client.on('disconnect', function() {
+                console.log('Disconnect!');
+        });
+	
 	client.on('clickedbon', function(data) {
 		io.emit('buttonUpdateBulb', data);
 		fs.writeFile('bulbmode.txt','4', function (err,data) {
