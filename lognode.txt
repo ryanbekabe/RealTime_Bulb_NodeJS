@@ -1,0 +1,54 @@
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 4
+Do < 5: buttonUpdateBulbOn
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 4
+Do < 5: buttonUpdateBulbOn
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 4
+Do < 5: buttonUpdateBulbOn
+Write Off!
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Write On!
+Write Off!
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Write On!
+Write Off!
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 6
+Do > 5: buttonUpdateBulbOff
+Write On!
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 4
+Do < 5: buttonUpdateBulbOn
+Client connected...
+Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode
+Read: 4
+Do < 5: buttonUpdateBulbOn

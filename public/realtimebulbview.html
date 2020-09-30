@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head></head>
+<body><h1>RealTime Bulb</h1>
+<img id="picBulb" src="/pic_bulboff.gif" style="width:100px">
+<script src="/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var socket = io.connect('http://107.173.229.88:4200');
+socket.on('connect', function(data) {
+	socket.emit('join', 'Bismillah|bekabeipa@gmail.com|hanyajasa.com|viewmode');
+});
+socket.on('buttonUpdateBulb', function(data){
+	document.getElementById("picBulb").src = '/pic_bulbon.gif';
+});
+socket.on('buttonUpdateBulbOff', function(data){
+	document.getElementById("picBulb").src = '/pic_bulboff.gif';
+});
+</script>
+</body></html>

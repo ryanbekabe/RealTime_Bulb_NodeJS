@@ -1,0 +1,16 @@
+{
+  "name": "RealTime_Bulb_NodeJS",
+  "version": "0.0.0",
+  "description": "A simple RealTime Bulb On Off NodeJS socket.io",
+  "main": "realtimebulb.js",
+  "author": "Ryan Bekabe",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node realtimebulb.js"
+  }
+}
