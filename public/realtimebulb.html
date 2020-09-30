@@ -7,11 +7,8 @@
 <script src="/jquery-1.10.2.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script>
-<<<<<<< HEAD
-var socket = io.connect('http://107.173.229.88:4200');
-=======
-var socket = io.connect('http://localhost:4200');
->>>>>>> c05254e1d3a39b5e2a64828352730435bfd83dc3
+
+var socket = io.connect('http://149.129.57.158:4200');
 socket.on('connect', function(data) {
 	socket.emit('join', 'Bismillah|bekabeipa@gmail.com|hanyajasa.com|controlmode');
 });

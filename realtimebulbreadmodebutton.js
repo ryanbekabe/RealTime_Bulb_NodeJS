@@ -8,15 +8,11 @@ app.get('/', function(req, res,next) {
 	res.sendFile(__dirname + '/realtimebulb.html');
 });
 
-<<<<<<< HEAD
+
 var clients = 0;
 io.on('connection', function(client) {
         clients++;
 	console.log('Client connected... ' + clients + ' online!');
-=======
-io.on('connection', function(client) {
-	console.log('Client connected...');
->>>>>>> c05254e1d3a39b5e2a64828352730435bfd83dc3
 	client.on('join', function(data) {
 		console.log(data);
 		fs.readFile('bulbmode.txt', 'utf8', function (err,datatxt) {
@@ -35,20 +31,13 @@ io.on('connection', function(client) {
 				  console.log('Data bulbmode.txt = 5');
 			  }				  
 		});
-<<<<<<< HEAD
+
 	})
         client.on('disconnect', function() {
                 clients--;
-                console.log('Disconnect! ' + clients + ' online!');
+                console.log('Client disconnect! ' + clients + ' online!');
         });
-=======
-	});
-	
-        client.on('disconnect', function() {
-                console.log('Disconnect!');
-        });
-	
->>>>>>> c05254e1d3a39b5e2a64828352730435bfd83dc3
+
 	client.on('clickedbon', function(data) {
 		io.emit('buttonUpdateBulb', data);
 		fs.writeFile('bulbmode.txt','4', function (err,data) {
